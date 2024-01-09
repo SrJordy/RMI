@@ -15,8 +15,5 @@ public class Main {
         IPartida partida = new Partida();
         registry.rebind("Partida", partida);
         System.out.println("Se ha inicializado el servidor");
-
-
-
     }
 }
