@@ -17,7 +17,6 @@ public class Main {
         Registry registry  = LocateRegistry.getRegistry("localhost", 8000);
         IPartida partida = (IPartida) registry.lookup("Partida");
 
-
         Scanner scanner = new Scanner (System.in);
         int playerId;
         long startTime = System.currentTimeMillis();
